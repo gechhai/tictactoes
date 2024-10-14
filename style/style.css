@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open-Sans', 'sans-serif';
+}
+
+#gameBoard {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+  width: 300px;
+  height: 300px;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  font-size: 2rem;
+  text-align: center;
+  line-height: 100px;
+  border: 1px solid #000;
+  color: blue;
+}
